@@ -26,3 +26,5 @@ Route::get('/services', function() {
 Route::get('/contact', function() {
     return view('pages.contact');
 });
+
+Route::resource('posts', 'PostsController');
